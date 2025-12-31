@@ -1,0 +1,54 @@
+# .gitignore file for SafeDrive project
+# Based on the project requirements and trends in the automotive and AI industries
+
+# Ignore operating system files
+*.tmp
+*.log
+
+# Ignore IDE and editor files
+*.idea/
+*.vscode/
+*.eclipse/
+
+# Ignore build and compilation files
+build/
+target/
+dist/
+
+# Ignore dependencies and libraries
+node_modules/
+vendor/
+
+# Ignore ISO 26262 and AUTOSAR related files that are not part of the codebase
+# As per ISO 26262:2018, functional safety is a critical aspect of automotive systems [cite: 2025-12-06]
+iso26262_docs/
+autosar_configs/
+
+# Ignore SaaS platform related files that are not part of the codebase
+saas_configs/
+deployment_scripts/
+
+# Ignore artificial intelligence and machine learning model files
+ai_models/
+ml_models/
+
+# Ignore high-performance computing and sensor system files
+hpc_configs/
+sensor_data/
+
+# Ignore over-the-air (OTA) update files
+ota_updates/
+
+# Ignore cybersecurity and software update files
+cybersecurity_configs/
+software_updates/
+
+# Ignore other files that are not part of the codebase
+.DS_Store
+thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Note: This .gitignore file is based on the project requirements and trends in the automotive and AI industries, 
+# and is intended to be used as a starting point for the SafeDrive project. It may need to be modified and updated 
+# as the project evolves and new requirements emerge.
